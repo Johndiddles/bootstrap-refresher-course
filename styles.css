@@ -1,0 +1,36 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+.instructors {
+    background: linear-gradient(135deg, rgb(247, 2, 137), rgb(52, 81, 212));  
+}
+
+.enrol-btn {
+    background: linear-gradient(135deg, rgb(247, 2, 137), rgb(52, 81, 212));
+    border: none;
+    outline: none;
+}
+
+.fundamentals {
+    background: linear-gradient(135deg, rgb(247, 2, 137), rgb(52, 81, 212))
+}
+
+.newsletter {
+    background: linear-gradient(135deg, rgb(247, 2, 137), rgb(52, 81, 212));
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+@media(min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+}
+
